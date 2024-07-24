@@ -1,0 +1,84 @@
+dependencies {
+    //Retrofit
+    implementation libs.okhttp
+    implementation libs.logging.interceptor
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.kotlinx.coroutines.core
+    implementation libs.kotlinx.coroutines.android
+    implementation libs.retrofit2.kotlin.coroutines.adapter
+
+    //viewmodel
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.activity.ktx
+
+    //Date Picker
+    implementation libs.awesome.calendar
+    implementation libs.androidx.datastore.preferences
+
+    //pinview
+    implementation libs.pinview
+
+    //Bottom Sheet
+    implementation libs.superbottomsheet
+
+    //Loading Asset
+    implementation libs.android.spinkit
+
+    // Json Class
+    implementation libs.moshi
+
+    //dagger hilt
+    implementation libs.hilt.android
+    kapt libs.hilt.compiler
+
+    // paging 3
+    implementation(libs.androidx.paging.runtime.ktx)
+
+    // Progress Bar
+    implementation libs.glide
+
+    // Date Range Picker Material 3
+    implementation libs.material.v140
+
+    //lifecycle
+    implementation libs.androidx.lifecycle.livedata.ktx
+    implementation libs.androidx.lifecycle.viewmodel.ktx.v261
+
+    // auto scroll to top
+    implementation libs.androidx.coordinatorlayout
+
+    //progress
+    implementation libs.roundedprogressbar
+
+    // circular imageview
+    implementation libs.circleimageview
+
+    // animation like
+    implementation libs.likebutton
+
+    // Shimmer Effect
+    implementation libs.shimmer
+
+    //fragement ktx
+    implementation libs.androidx.fragment.ktx
+
+    //GlideThrow
+    implementation libs.glide
+    implementation libs.okhttp3.integration
+    implementation libs.circleindicator
+
+    //Navigation
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.ui.ktx
+
+    //Room
+    implementation libs.androidx.room.runtime
+    //noinspection KaptUsageInsteadOfKsp
+    kapt libs.androidx.room.compiler.v242
+    implementation libs.androidx.room.ktx
+
+    //viewPager
+    implementation libs.androidx.viewpager2
+
+}
